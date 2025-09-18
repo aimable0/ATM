@@ -47,7 +47,6 @@ int main(void) {
                 } else {
                     balance = deposit(balance, amount);
                     printf("++ $%.2f deposited successfully!\n\n", amount);
-                    check_balance(balance);
                 }
                 break;
 
