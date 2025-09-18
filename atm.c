@@ -74,7 +74,7 @@ int main(void) {
 
             case 4: // Exit
                 printf("\n... Goodbye! Thanks for using ATM Simulator ...\n\n");
-                break;
+                return 0;
 
             default:
                 printf("Oops! Invalid option. Please choose between 1-4.\n\n");
@@ -82,7 +82,6 @@ int main(void) {
         }
     }
 
-    return 0;
 }
 
 // Function implementations
